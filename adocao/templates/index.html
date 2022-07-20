@@ -1,0 +1,18 @@
+{% extends 'partials/_base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% load static %}
+
+{% block css_layout %}
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/layout/index.css' %}">
+{% endblock %}
+
+{% block content %}
+    {% comment %} {% include 'partials/_cabecalho.html' %} {% endcomment %}
+
+        <h1>teste</h1>
+    
+    {% comment %} {% include 'partials/_rodape.html' %} {% endcomment %}
+
+{% endblock %}

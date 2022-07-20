@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Adoção - {% block title %} {% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Meta tags para não carregar cache da página -->
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
+        
+        <!-- Arquivos CSS de base -->
+        <link rel="stylesheet" type="text/css" href="{% static 'assets/css/base/reset.css' %}"/>
+
+        <!-- Arquivos CSS de layouts de páginas -->
+        {% block css_layout %}{% endblock %}
+     
+    </head>
+
+    <body>
+        {% block content %} 
+        
+        {% endblock %}
+    </body>
+</html>

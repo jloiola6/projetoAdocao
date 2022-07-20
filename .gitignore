@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+
+#Pastas diversas
+adocao/static/media/
+
+#Migrations
+adocao/apps/core/migrations
+
 # Distribution / packaging
 .Python
 build/
