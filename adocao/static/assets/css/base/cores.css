@@ -1,0 +1,17 @@
+html{
+	/* Definição do padrão de cores */
+
+	/* Cores para texto */
+	--text-color-1: #000000;
+	--text-color-2: #FFFFFF;
+	--text-color-3: #E9E2DA;
+
+	/* Cores para componentes */
+	--primary-color: #ADD4D3;
+	--secondary-color: #E9E2DA;
+
+	--componet-color-1: #FFAD64;
+	--componet-color-2: #FB8351;
+
+	--shadow-color: #333237;
+}

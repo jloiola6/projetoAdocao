@@ -1,0 +1,114 @@
+/* Estilização da página inicial */
+
+.hero {
+    /* background-color: var(--primary-color); */
+    background-color: var(--primary-color);
+    height: 380px;
+    width: auto;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    height: 54px;
+    width: 1312px;
+    justify-content: space-between;
+	margin: auto;
+    color: white;
+    font-size: 18px;
+}
+
+.titulo {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.container-hero {
+    display: grid;
+    place-items: center;
+    margin-top: 6rem;
+    height: 154px;
+}
+
+.card-hero {
+    background-color: var(--componet-color-1);
+    height: 60px;
+    width: auto;
+    padding: 10px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+    .card-hero h1 {
+        display: grid;
+        font-size: 40px;
+        color: #FFFFFF;
+        align-content: center;
+        justify-content: center;
+        margin-top: 8px;
+        
+    }
+
+.pesquisa-hero {
+    margin-top: 28px;
+    width: 732px;        
+}
+
+.pesquisa-hero input {
+    width: 732px;
+    height: 52px;
+    font-size: 16px;   
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.25);  
+    border-radius: 24px;   
+}
+
+
+.destaques {
+    height: 340px;
+    background-color: var(--secondary-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-destaques { 
+    width: 1140px;
+    height: 284px;
+}
+
+
+    .container-destaques p { 
+        color: white;
+        font-size: 24px;
+    }
+
+
+.container-destaques-cards { 
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pesquisar {
+    width: 1312px;
+    height: 240px;
+    background-color: var(--componet-color-2);
+    margin: 32px auto;
+    border-radius: 24px;
+}
+
+.pets {
+    background-color: var(--secondary-color);
+    width: 1312px;
+    height: auto;
+    margin: auto;
+}
